@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal-Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "header">
+            <div class="container-header">
+                <nav>
+                    <img src="images/kshitij.jpg" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>You've Got Questions. We've Got Developer.</p>
+                    <p>An Aspiring Full-Stack Developer and Data Scientist </p>
+                    <h1>Hi, I'm <span>Kshitij</span><br>From NIT Delhi</h1>
+                </div>                
+            </div>
+        </div>  
+        <!-- ---------------------About Me---------------------- -->
+        <div id="about">
+            <div class="container-about">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src = "images/images.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p id="about-me-p">A 1st Year student at NIT Delhi with some technical knowledge and keen to pursue my career in B. tech from Computer Science Department. </p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Web Development</li>
+                                <li><span>Machine Learning</span></li>
+                                <li>App Development</li>
+                                <li><span>Data Structure And Algorithm</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>Beginner In Web Development</li>
+                                <li><span>Beginner In App Development</span></li>
+                                <li>Beginner In Machine Learning</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>10<sup>th</sup> from BCS Dohna,Bareilly - 96%</li>
+                                <li><span>12<sup>th</sup> from BCS Dohna,Bareilly - 94.2%</span></li>
+                                <li>Btech From NIT Delhi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div id = "project">
+            Projects     
+       </div>
+
+       <div class = "project-child">
+            <div class="data">
+                <div class="data-1">
+                    Weather App
+                </div>
+                <div class="image-weather">
+                    <img src="images/weather.png" alt="No Image Available">
+                </div>
+                <div class="weather-data">
+                    <p>A Weather Website Which Fetches Data using WeatherAPI and displays Realtime Weather Data of Particular Location  <a href="link.html">Link</a></p>
+                </div>
+                                   
+            </div>
+            <div class="data">
+                <div class="data-1">
+                    Portfolio-Website
+                </div>      
+            </div>
+            <div class="data">
+                <div class="data-1">
+                    Open-Cv
+                </div>                
+            </div>
+            <div class="data">
+                <div class="data-1">
+                    Gesture-Control-Robot
+                </div>                
+            </div>
+            <div class="data">
+                <div class="data-1">
+                    Scrolling-Led-Display
+                </div>                
+            </div>
+        </div>
+        <div id = "project">
+                Contact Me     
+        </div>
+        <div id="contact">
+            <div class="container-contact">
+                <div class="row-1">
+                    <div class="contact-left">
+                        <p>contact@example.com</p><br>
+                        <p>0123456789</p><br>
+                        <div class="social-icons">
+                            <a href="">Instagram</a><br>
+                            <br><a href="">Linked-In</a><br>
+                        </div><br>
+                        <button type ="button" >Download CV</button>
+                    </div>
+
+                    <div class="contact-right">
+                        <div class="container-contact">
+                            <form action="action_page.php">
+                          
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          
+                              <label for="country">Email-Id</label>
+                              <input type="text" id="Email-Id" name="Email-Id" placeholder="Enter Your Email-Id">
+
+                          
+                              <label for="subject">Subject</label>
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                          
+                            </form>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </div> 
+        <script src = "javas.js">
+
+        </script>
+    </body>
+</html>
